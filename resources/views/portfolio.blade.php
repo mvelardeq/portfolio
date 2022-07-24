@@ -55,7 +55,7 @@
                         Hello! Am a software developer and here is my portfolio website.
                         Here you’ll learn about my journey as a software developer.
                     </p>
-                    <a href="#" class="btn btn-primary">Hire me</a>
+                    <a href="https://www.linkedin.com/in/martin-cesar-velarde-quispe-a58bb6245/" target="_blank" class="btn btn-primary">Hire me</a>
                 </div>
             </section>
             <section class="skills mp-t-100" id="skills">
@@ -229,7 +229,7 @@
             <div class="social-media">
                 <h3>My social media links:</h3>
                 <div class="list-social-icons">
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/martin-cesar-velarde-quispe-a58bb6245/" target="_blank">
                         <img class="icon-footer" src={{ asset('./assets/images/icons/linkedin-svgrepo-com-1.svg') }}
                             alt="" />
                     </a>
@@ -237,7 +237,7 @@
                         <img class="icon-footer" src={{ asset('./assets/images/icons/whatsapp-svgrepo-com-1.svg') }}
                             alt="" />
                     </a>
-                    <a href="#">
+                    <a href="https://twitter.com/mvelardeq" target="_blank">
                         <img class="icon-footer" src={{ asset('./assets/images/icons/twitter-svgrepo-com-1.svg') }}
                             alt="" />
                     </a>
