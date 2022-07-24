@@ -114,10 +114,28 @@
                                     Most ambitious project I have ever done. ERP system with
                                     inventory, payroll, sales, billing and accounting.<b>Admin LTE</b> template and
                                     <b>LARAVEL</b> were used.
-                                    Deployed on <b>AWS</b>.
+                                    Deployed on <b>AWS</b>, but this demo on <b>Heroku</b>.
                                 </p>
-                                <a href="#">
-                                    <img src="./assets/images/icons/internet-blue-1.svg") }} alt="" />
+                                <a href="https://minierp-mvelardeq.herokuapp.com/seguridad/login" target="_blank">
+                                    <img src={{ asset("./assets/images/icons/internet-blue-1.svg") }} alt="" />
+                                    Visit site
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-project">
+                            <div class="image-card">
+                                <img src={{ asset('./assets/images/photos/Portfolio-page.jpg') }} alt="" />
+                            </div>
+                            <div class="body-card">
+                                <p>
+                                    I made a portfolio with <b>Laravel</b> and
+                                    only <b>CSS</b>, it's responsive and was deployed on
+                                    <b>Heroku</b>. Has a change of theme with
+                                    <b>Local Storage</b>.
+                                </p>
+                                <a href="https://portfolio-mvelarde.herokuapp.com/" target="_blank">
+                                    <img src={{ asset('./assets/images/icons/internet-blue-1.svg') }}
+                                        alt="" />
                                     Visit site
                                 </a>
                             </div>
@@ -132,7 +150,7 @@
                                     it's responsive and it was deployed on <b>Github Pages</b>.
                                     This project had previously been done in <b>Figma</b>.
                                 </p>
-                                <a href="#">
+                                <a href="https://mvelardeq.github.io/space-tourims-web/" target="_blank">
                                     <img src={{ asset('./assets/images/icons/internet-blue-1.svg') }}
                                         alt="" />
                                     Visit site
@@ -151,7 +169,7 @@
                                     app can constrains some invalid values or type of
                                     operations.
                                 </p>
-                                <a href="#">
+                                <a href="https://mvelardeq.github.io/calculator-app/" target="_blank">
                                     <img src={{ asset('./assets/images/icons/internet-blue-1.svg') }}
                                         alt="" />
                                     Visit site
@@ -168,25 +186,7 @@
                                     Was made with <b>Vanilla Javascript</b> and bootstrap, it's
                                     responsive and was deployed on <b>Github Pages</b>.
                                 </p>
-                                <a href="#">
-                                    <img src={{ asset('./assets/images/icons/internet-blue-1.svg') }}
-                                        alt="" />
-                                    Visit site
-                                </a>
-                            </div>
-                        </div>
-                        <div class="card-project">
-                            <div class="image-card">
-                                <img src={{ asset('./assets/images/photos/Portfolio-page.jpg') }} alt="" />
-                            </div>
-                            <div class="body-card">
-                                <p>
-                                    Portfolio page was made with <b>Vanilla Javascript</b> and
-                                    only <b>CSS</b>, it's responsive and was deployed on
-                                    <b>Github Pages</b>. Has a change of theme with
-                                    <b>Local Storage</b>.
-                                </p>
-                                <a href="#">
+                                <a href="https://mvelardeq.github.io/agency-landing-page/" target="_blank">
                                     <img src={{ asset('./assets/images/icons/internet-blue-1.svg') }}
                                         alt="" />
                                     Visit site
