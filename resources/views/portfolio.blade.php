@@ -206,12 +206,12 @@
                         @csrf
 
                         <input type="email" class="@error('email') invalid @enderror" name="email"
-                            placeholder="Enter email address" value="{{ old('email') }}" />
+                            placeholder="Enter email address" value="{{ old('email') }}" required/>
                         @error('email')
                             <p class="invalid-message">{{ $message }}</p>
                         @enderror
 
-                        <textarea name="message" id="message" placeholder="Enter message..." class="@error('message') invalid @enderror">{{ old('message') }}</textarea>
+                        <textarea name="message" id="message" placeholder="Enter message..." class="@error('message') invalid @enderror" required>{{ old('message') }}</textarea>
                         @error('message')
                             <p class="invalid-message">{{ $message }}</p>
                         @enderror
@@ -229,7 +229,7 @@
             <div class="social-media">
                 <h3>My social media links:</h3>
                 <div class="list-social-icons">
-                    <a href="https://www.linkedin.com/in/martin-cesar-velarde-quispe-a58bb6245/" target="_blank">
+                    <a href="https://www.linkedin.com/in/mvelardeq/" target="_blank">
                         <img class="icon-footer" src={{ asset('./assets/images/icons/linkedin-svgrepo-com-1.svg') }}
                             alt="" />
                     </a>

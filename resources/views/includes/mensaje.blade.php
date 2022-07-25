@@ -6,13 +6,18 @@
                 x: 50, // horizontal axis - can be a number or a string indicating unity. eg: '2em'
                 y: 10 // vertical axis - can be a number or a string indicating unity. eg: '2em'
             },
+            className: "success",
+            style: {
+                background: "#15803d",
+                color: "white"
+            }
         }).showToast();
     </script>
 @endif
 @if ($errors->any())
     <script>
         Toastify({
-            text: "Your message hadn't sent, some inputs field is invalid!",
+            text: "Your message hasn't sent, some input fields are invalid!",
             className: "danger",
             style: {
                 background: "#ff4949",
