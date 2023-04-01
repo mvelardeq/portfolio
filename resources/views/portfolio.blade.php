@@ -52,7 +52,7 @@
                 <div class="hero-description">
                     <h1>Martín Velarde</h1>
                     <p>
-                        Hello! Am a software developer and here is my portfolio website.
+                        Hello! I am a software developer and here is my portfolio website.
                         Here you’ll learn about my journey as a software developer.
                     </p>
                     <a href="https://www.linkedin.com/in/martin-cesar-velarde-quispe-a58bb6245/" target="_blank" class="btn btn-primary">Hire me</a>
