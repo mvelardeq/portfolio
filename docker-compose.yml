@@ -38,7 +38,7 @@ services:
         container_name: portfolio-db
         restart: unless-stopped
         ports:
-            - ${SERVER_PORT_DB:-3306}:3306
+            - ${SERVER_PORT_DB:-3307}:3307
         volumes:
             - dbdata:/var/lib/mysql
         environment:
